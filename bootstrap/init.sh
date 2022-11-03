@@ -1,5 +1,6 @@
 # Initilize set project ID variable and run various initializations
 # ACTION REQUIRED! Change "project-id-here" value to the project you'll be using
+#test
 export PROJECT_ID="dunder-mifflin-363209"
 # sets the current project for gcloud
 gcloud config set project $PROJECT_ID

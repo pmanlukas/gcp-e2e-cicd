@@ -35,6 +35,7 @@ steps:
         "--annotations", "commitId=${REVISION_ID}",
         "--images", "hello-world-python=us-central1-docker.pkg.dev/$PROJECT_ID/hello-world-python/hello-world-python:${COMMIT_SHA}"
       ]
+# different id as the gcp project      
 availableSecrets:
   secretManager:
   - versionName: projects/165850814358/secrets/SONAR_TOKEN/versions/1

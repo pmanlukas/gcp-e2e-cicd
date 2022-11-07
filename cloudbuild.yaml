@@ -1,6 +1,6 @@
 # To build and deploy to Cloud Run, run from this directory:
 # $ gcloud builds submit app --config=cloudbuild.yaml 
-# is not easy to setup and still hard to dooasdaS
+
 steps:
   # Build app
   - name: 'gcr.io/cloud-builders/docker'
